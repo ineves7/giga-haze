@@ -51,7 +51,7 @@ margin-top: auto;
 margin-top: auto;
   width: auto;          
   max-width:100dvw;   
-  height: 200px;  
+  height: 100px;  
   overflow:hidden;      
 }
 
@@ -151,16 +151,16 @@ section {
     font-size: 1.3rem;
     font-family: "Sansation", sans-serif;
     font-weight: 300;
-    line-height: 1.8rem;
 }
 .destaque-description-produto {
     font-size: 1.5rem;
 }
 
 .button-comprar {
-    height: 50px; 
+    height: 35px; 
     background-color: rgb(255, 217, 0);
     border: 2px solid #6b5b00;
+    font-size: 1rem;
 
 }
 
