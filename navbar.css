@@ -49,7 +49,7 @@
       position: absolute;
       height: 0px;
       width: 100%;
-      top: 15vh;
+      top: 10vh;
       right: 0px;
       text-align: center;
       background-color: #000;
@@ -60,13 +60,17 @@
       margin: auto 0;
     }
     #nav.active #menu {
-      height: calc(100vh - 15vh);
+      height: calc(100vh - 10vh);
       visibility: visible;
       overflow-y: auto;;
     }
     #header {
+          position: fixed;      /* Fixa no topo */
+      top: 0;               /* Gruda no topo */
+      left: 0;
+      right: 0;
      margin: auto;
-     height: 15vh;
+     height: 10vh;
      padding: 2rem;
     }
     #header a h1 {
