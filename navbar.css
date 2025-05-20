@@ -49,7 +49,7 @@
       position: absolute;
       height: 0px;
       width: 100%;
-      top: 10vh;
+      top: 7vh;
       right: 0px;
       text-align: center;
       background-color: #000;
@@ -60,7 +60,7 @@
       margin: auto 0;
     }
     #nav.active #menu {
-      height: calc(100vh - 10vh);
+      height: calc(100vh - 7vh);
       visibility: visible;
       overflow-y: auto;;
     }
@@ -70,7 +70,7 @@
       left: 0;
       right: 0;
      margin: auto;
-     height: 10vh;
+     height: 7vh;
      padding: 2rem;
     }
     #header a h1 {
