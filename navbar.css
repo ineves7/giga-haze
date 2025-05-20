@@ -36,6 +36,9 @@
 #btn-mobile {
     display: none;
 }
+.sumir-desktop {
+  display: none;
+}
 
 /* ---- Fim do Menu ---- */
 
@@ -123,6 +126,9 @@
     #nav.active #hamburguer::after {
     transform: rotate(-135deg);
     margin-top: -2px;
+    }
+    .sumir-desktop {
+      display: flex;
     }
     }
 
